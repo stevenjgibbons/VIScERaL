@@ -17,4 +17,4 @@ After cloning VIScERaL, you should be able to go to the directory Finland_datase
 and generate the file "Finland_ak135_slovecs.txt" by running the script
 calculate_Finland_theoretical_slovecs.sh.
 
-The generated file should be identical to Finland_ak135_slovecs_expected.txt.
+The generated file should be (almost) identical to Finland_ak135_slovecs_expected.txt.
