@@ -29,11 +29,13 @@ If both seismic events and slowness vectors are allowed to move then there is a 
 
 # Mandatory arguments to VIScERaL_GD.py
 
+```
 **--abslocflagsfile** (file containing the absolute locations of events)  
 **--slovecsflagsfile** (file containing the slowness vectors)  
 **--dtfile** (file containing the differential times)  
 **--reflat**  (a reference latitude within the source area)  
-**--reflon**  (a reference longitude within the source area)  
+**--reflon**  (a reference longitude within the source area)
+```
 
 # Additional arguments to VIScERaL_GD.py
 
@@ -91,3 +93,46 @@ If both seismic events and slowness vectors are allowed to move then there is a 
                                 hundred. Do not make this value too large
                                   or the solution may just evolve to something
                                     far from the starting value.)  
+
+# Format of the abslocflagsfile  
+
+```Time_in_UTC_format      latitude   longitude   event_code  Fixed/Solve/Ignore```
+
+```
+2007-08-15T07:59:59.936 67.93590352 25.83491289 H01  F
+2007-08-17T11:00:00.380  67.93590352  25.83491289  H06   S
+2007-12-01T00:00:00.000  67.94        25.835       HXX   I
+```
+
+
+# Format of the slovecsflagsfile
+
+```station phase   statlat    statlon   reflat     reflon      Sx            Sy       flag```  
+
+e.g.  
+```
+  ARE0  P1        69.53490   25.50580  67.93590   25.83491   -0.00888570    0.12337091 F
+  ARE0  S1        69.53490   25.50580  67.93590   25.83491   -0.01594664    0.22140645 F
+  KEV   P1        69.75530   27.00670  67.93590   25.83491    0.02687697    0.12073203 F
+  KEV   S1        69.75530   27.00670  67.93590   25.83491    0.04823417    0.21666916 F
+  SGF   P1        67.44211   26.52611  67.93590   25.83491    0.08181667   -0.15176232 F
+  SGF   S1        67.44211   26.52611  67.93590   25.83491    0.13714934   -0.25439928 F
+  LP34  P1        67.26574   28.12528  67.93590   25.83491    0.13871543   -0.10238026 F
+  LP34  S1        67.26574   28.12528  67.93590   25.83491    0.23252879   -0.17162010 F
+  LP53  P1        68.08434   27.18877  67.93590   25.83491    0.16493699    0.05021592 F
+  LP53  S1        68.08434   27.18877  67.93590   25.83491    0.27648398    0.08417697 F
+  LP61  P1        67.91408   23.93216  67.93590   25.83491   -0.17239066   -0.00260066 F
+  LP61  S1        67.91408   23.93216  67.93590   25.83491   -0.28897858   -0.00435949 F
+```
+
+# Format of the dtfile
+
+```ev1  ev2   starting_time_ev1_template   CC_time_for_ev2    station phase  ignored```  
+
+   e.g.  
+```
+  H01  H02  2007-08-15T08:00:19.109  2007-08-15T12:00:19.299  LP34   P1  0.850
+  H01  H02  2007-08-15T08:00:33.100  2007-08-15T12:00:33.286  LP34   S1  0.798
+  H01  H02  2007-08-15T08:00:08.467  2007-08-15T12:00:08.709  LP53   P1  0.926
+  H01  H02  2007-08-15T08:00:15.228  2007-08-15T12:00:15.476  LP53   S1  0.813
+```
