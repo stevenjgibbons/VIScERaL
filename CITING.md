@@ -1,6 +1,5 @@
 When citing VIScERaL, please cite:
 
-Gibbons, S. J. (2023). Vectorized Iterative SeismiC Event RelAtive Location (VIScERaL),
-                       https://github.com/stevenjgibbons/VIScERaL
+Gibbons, S. J. (2023). Vectorized Iterative SeismiC Event RelAtive Location (VIScERaL), version v1.0.0
+                       https://doi.org/10.5281/zenodo.8052527
 
-This file will be updated when a release and/or the paper is published.
