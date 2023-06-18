@@ -1,5 +1,10 @@
 # VIScERaL
-**VIScERaL**: **V**ectorized **I**terative **S**eismi**c** **E**vent **R**el**a**tive **L**ocation
+**VIScERaL**: **V**ectorized **I**terative **S**eismi**c** **E**vent **R**el**a**tive **L**ocation  
+
+Release v1.0.0 is permanently stored on Zenodo with DOI 10.5281/zenodo.8052527  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8052527.svg)](https://doi.org/10.5281/zenodo.8052527)  
+
+https://doi.org/10.5281/zenodo.8052527  
 
 The main code in this repository is a stand-alone python code called **VIScERaL_GD.py** (where the GD stands for Gradient Descent).
 
