@@ -5,7 +5,7 @@ authors:
   given-names: Steven J.
   orcid: "https://orcid.org/0000-0002-7822-0244"
 title: "VIScERaL"
-version: No release as yet
-doi: No DOI as yet
-date-released: No release as yet
+version: v1.0.0
+doi: https://doi.org/10.5281/zenodo.8052527
+date-released: 2023-06-18
 url: "https://github.com/stevenjgibbons/VIScERaL"
