@@ -6,6 +6,10 @@ Release v1.0.0 is permanently stored on Zenodo with DOI 10.5281/zenodo.8052527
 
 https://doi.org/10.5281/zenodo.8052527  
 
+[![SQAaaS badge](https://github.com/EOSC-synergy/SQAaaS/raw/master/badges/badges_150x116/badge_software_bronze.png)](https://api.eu.badgr.io/public/assertions/w6gj49upSFK_mYONZZHODA "SQAaaS bronze badge achieved")  
+
+[![SQAaaS badge shields.io](https://img.shields.io/badge/sqaaas%20software-bronze-e6ae77)](https://api.eu.badgr.io/public/assertions/w6gj49upSFK_mYONZZHODA "SQAaaS bronze badge achieved")  
+
 The main code in this repository is a stand-alone python code called **VIScERaL_GD.py** (where the GD stands for Gradient Descent).
 
 There is a second python code **statphase2slowvec.py** which is taken from https://github.com/stevenjgibbons/statphase2slowvec and which is needed to calculate the theoretical slowness vector files.
