@@ -22,7 +22,7 @@ AK135_file=../Finland_dataset/Finland_ak135_slovecs.txt
 exefile=../VIScERaL_GD.py
 if test ! -r ${DT_file}
 then
-  echo Ground truth file ${DT_file} not found ...
+  echo Differential times file ${DT_file} not found ...
   exit 1
 fi
 if test ! -r ${GT_file}
