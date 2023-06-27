@@ -1,6 +1,6 @@
 
 In this example we solve for both the location vectors and the slowness vectors
-simultaneously. The files new_rellocs_init.txt and new_slovecs_init.txt contain a
+simultaneously. The files **new_rellocs_init.txt** and **new_slovecs_init.txt** contain a
 set of starting estimates for the locations and slowness vectors respectively
 (these were the median location vectors from a previous iteration of this procedure:
 you could equally well start with the purely theoretical slowness vectors and
