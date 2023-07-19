@@ -4,7 +4,7 @@ This directory contains the following files:
 (1) **locate_one_event.sh**  
 
 This script solves for the location of one of the events DPRK1, DPRK3, DPRK4, or DPRK5
-relative to the fixed DPRK2.
+relative to the fixed DPRK2 using fixed slowness vectors based upon the ak135 model.
 
 (2) **DPRK_events.txt**  
 
