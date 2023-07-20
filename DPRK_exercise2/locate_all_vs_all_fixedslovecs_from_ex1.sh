@@ -9,14 +9,14 @@ fi
 #
 # We copy the file slovecs_flags.txt from the directory
 # DPRK_exercise1 - these are the fixed ak135 slowness vectors.
-# We also copy the file rellocs_vs_D2009.txt
+# We also copy the file rellocs_vs_DPRK2.txt
 # from DPRK_exercise1 - this is the output from the 
 # calculations where all events are located one by one
-# relative to D2009.
-# Note that D2009 is still fixed (flag F) and all the 
+# relative to DPRK2.
+# Note that DPRK2 is still fixed (flag F) and all the 
 # other events have flag S - so they can move.
 #
-# We now simply run the script VOWEL.py
+# We now simply run the script VIScERaL_GD.py
 #
 python ${exefile} \
          --reflat  41.29500   \
