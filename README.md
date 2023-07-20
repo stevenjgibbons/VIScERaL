@@ -12,7 +12,7 @@ https://doi.org/10.5281/zenodo.8052527
 
 The main code in this repository is a stand-alone python code called **VIScERaL_GD.py** (where the GD stands for Gradient Descent).
 
-There is a second python code **statphase2slowvec.py** which is taken from https://github.com/stevenjgibbons/statphase2slowvec and which is needed to calculate the theoretical slowness vector files.
+There is a second python code **statphase2slowvec.py** which is taken from https://github.com/stevenjgibbons/statphase2slowvec and which is needed to calculate the theoretical slowness vector files. It is included also here for the sake of convenience.
 
 The purpose of the program is to solve for the relative locations of seismic events and/or the slowness vectors which describe the speed and direction with which the seismic waves leave the source area. The user only ever needs relate to the geographical coordinates of the seismic events even though it is the Cartesian position vectors that are used in the solution.
 
