@@ -56,14 +56,20 @@ If both seismic events and slowness vectors are allowed to move then there is a 
     **maxdistkm** (the largest distance in km an event can be moved
                   from its original location in the whole run, def 999.9 km)  
     **randomizeloc** (dist within which location can be moved randomly
-                     at start, def = 0.0 km)  
+                     at start, def = 0.0 km. Note that this distance applies
+                     independently in the x and y directions so the initial
+                     event location is placed randomly within a square centered
+                     on the specified location.)  
  
     **delslomax** (distance in s/km a slowness can be moved in a single
                   iteration, def 0.0005 s/km )  
     **maxsdist** (the largest distance in s/km a slowness vector can be moved
              from its original specification in the whole run, def 999.9 s/km)  
     **randomizeslo** (dist within which slowness vector can be moved randomly
-                     at start, def = 0.0 s/km)  
+                     at start, def = 0.0 s/km. Note that this distance in slowness applies
+                     independently in the x and y directions so the initial
+                     slowness vector is placed randomly within a square centered
+                     on the specified slowness vector.)  
  
     **writehistory** (specify to write out the locations of every variable
                      at every iteration. In general you will not want to
