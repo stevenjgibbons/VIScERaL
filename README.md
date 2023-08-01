@@ -1,7 +1,7 @@
 # VIScERaL
 **VIScERaL**: **V**ectorized **I**terative **S**eismi**c** **E**vent **R**el**a**tive **L**ocation  
 
-Release v1.0.1 is permanently stored on Zenodo with DOI 10.5281/zenodo.8205776 
+Release v1.0.1 is permanently stored on Zenodo with DOI 10.5281/zenodo.8205776  
 [![DOI](https://zenodo.org/badge/654975532.svg)](https://zenodo.org/badge/latestdoi/654975532)  
 
 https://doi.org/10.5281/zenodo.8205776  
