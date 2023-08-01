@@ -4,7 +4,10 @@
 Release v1.0.0 is permanently stored on Zenodo with DOI 10.5281/zenodo.8052527  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8052527.svg)](https://doi.org/10.5281/zenodo.8052527)  
 
-https://doi.org/10.5281/zenodo.8052527  
+Release v1.0.1 is permanently stored on Zenodo with DOI 10.5281/zenodo.8205776 
+[![DOI](https://zenodo.org/badge/654975532.svg)](https://zenodo.org/badge/latestdoi/654975532)
+
+https://doi.org/10.5281/zenodo.8205776  
 
 [![SQAaaS badge](https://github.com/EOSC-synergy/SQAaaS/raw/master/badges/badges_150x116/badge_software_bronze.png)](https://api.eu.badgr.io/public/assertions/w6gj49upSFK_mYONZZHODA "SQAaaS bronze badge achieved")  
 
