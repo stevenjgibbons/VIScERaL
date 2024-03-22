@@ -151,3 +151,5 @@ e.g.
   H01  H02  2007-08-15T08:00:08.467  2007-08-15T12:00:08.709  LP53   P1  0.926
   H01  H02  2007-08-15T08:00:15.228  2007-08-15T12:00:15.476  LP53   S1  0.813
 ```
+
+![Display of the variables to specify in VIScERaL](Figure01.png)  
